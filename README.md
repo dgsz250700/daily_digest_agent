@@ -1,13 +1,14 @@
-# OpenClaw Agent - Email Digest
+# OpenClaw Agent - Newsletter Digest
 
-This project implements a simple agent built with OpenClaw that processes incoming messages and generates an automated digest using a Python script.
+This project implements an agent built with OpenClaw that processes newsletter emails and generates a structured digest using a Python script.
 
-The agent is designed to simulate a lightweight workflow where raw inputs (e.g., emails or messages) are parsed, filtered, and summarized into a structured output.
+Instead of handling arbitrary messages, the agent focuses specifically on newsletters from different subscriptions and topics. It extracts relevant information from each email, filters noise, and compiles a concise report that summarizes the key content across all sources.
 
 ## Features
-- Automated message processing
-- Digest generation via Python script
-- Modular structure for easy extension
+- Parsing of newsletter emails from multiple subscriptions
+- Content filtering to remove irrelevant information
+- Summarization of each newsletter
+- Aggregation into a single structured report
 
 ## Tech Stack
 - Python
